@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
         .container {
-            width: 600px;
-            height: 1000px;
+            width: 400px;
+            height: 300px;
             margin: 40px;
             padding: 40px;
-            border: 10px solid red;
+            border: 10px solid rgb(0, 81, 255);
             background-color: black;
+            overflow: scroll;
+            /* overflow-x: scroll; */
+
+        }
+        .content {
+            width: 500px;
+            height: 400px;
+            background-color: red;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div></div>
+    <div class="container" >
+        <div class="content"></div>
     </div>
 </body>
 </html>
