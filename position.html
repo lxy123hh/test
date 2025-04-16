@@ -7,22 +7,30 @@
 </head>
 <style>
     .where {
-        position: relative;
+        position: absolute;
         background-color: cadetblue;
         width: 100px;
         height: 100px;
+        top: 100px;
+        left: 100px;
     }
 
     .container {
+        font-family: 'dyh';
         border: 10px solid red;
         margin: 10px;
         height: 400px;
-        padding: 10px;
+
+    }
+    @font-face {
+        font-family: 'dyh';
+        src: url(assets/SmileySans-Oblique.ttf);
     }
 </style>
 <body>
     <div class="container">
         <div class="where">测试内容</div>
+        <div >另一个测试内容</div>
     </div>
 </body>
 </html>
