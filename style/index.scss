@@ -1,5 +1,11 @@
-$font-size:40px;
+$font-size: 40px;
+$font-color: red;
 
+:root {
+  --font-weight: 800;
+}
 .test {
-    font-size: $font-size;
+  font-size: $font-size;
+  color: $font-color;
+  font-weight: var(--font-weight);
 }

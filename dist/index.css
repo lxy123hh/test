@@ -1,5 +1,11 @@
+:root {
+  --font-weight:800;
+}
+
 .test {
   font-size: 40px;
+  color: red;
+  font-weight: var(--font-weight);
 }
 
 /*# sourceMappingURL=index.css.map */
