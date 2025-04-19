@@ -9,3 +9,16 @@ $font-color: red;
   color: $font-color;
   font-weight: var(--font-weight);
 }
+
+div {
+      p {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+      }
+
+      &:hover p {
+            background-color: red;
+
+      }
+}
